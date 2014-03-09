@@ -1,0 +1,12 @@
+{
+    "name": "giorgio/phpunit-4",
+    "require": {
+        "phpunit/phpunit": "4.x"
+    },
+    "authors": [
+        {
+            "name": "Giorgio Sironi",
+            "email": "info@giorgiosironi.com"
+        }
+    ]
+}

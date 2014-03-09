@@ -1,0 +1,13 @@
+<phpunit colors="true">
+    <testsuites>
+        <testsuite>
+            <directory>examples/</directory>
+        </testsuite>
+    </testsuites>
+     <whitelist processUncoveredFilesFromWhitelist="true">
+         <directory suffix=".php">src/</directory>
+     </whitelist>
+     <listeners>
+         <listener class="FailedTestsListener" file="FailedTestsListener.php" />
+     </listeners>
+</phpunit>
